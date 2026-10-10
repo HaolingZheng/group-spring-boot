@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: group-spring-boot
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /actuator/health
+    autoDeployTrigger: checksPass
