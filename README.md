@@ -2,6 +2,8 @@
 
 An initial group application built with Java 17 and Spring Boot, ready to deploy on Render.
 
+[GitHub repository](https://github.com/HaolingZheng/group-spring-boot) · [Build status](https://github.com/HaolingZheng/group-spring-boot/actions/workflows/ci.yml)
+
 ## Run locally
 
 Install Java 17 or newer. Maven is included through the Maven Wrapper.
